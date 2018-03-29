@@ -1,0 +1,122 @@
+* {
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e6e6e6;
+}
+
+body {
+    background-color: #342f2d;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-title {
+    font-size: 3.5rem;
+    color: #FF8000;
+}
+
+#header-image {
+    width: 100px;
+}
+
+#header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link, .header-link:link, .header-link:visited {
+    font-size: 2.5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+
+#apply-link {
+    color: #FF8000;
+}
+
+#header-line {
+    border-top: 1px solid #e6e6e6;
+    width: 100rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#left {
+    flex: 1;
+}
+
+#blog {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#blog img {
+    width: 768px;
+    border: 1px solid black;
+}
+
+#blog h2 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+#blog p {
+    font-size: 2rem;
+    margin: 0;
+}
+
+@media screen and (max-width: 1700px) {
+
+    #blog h2 {
+        font-size: 3rem;
+    }
+
+    #blog img {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    
+    #blog {
+        flex: 3;
+    }
+}
+
+#right {
+    flex: 1;
+}
+
+#recruitment {
+    margin-top: 10rem;
+}
+
+#recruitment p {
+    color: #FF8000;
+    font-size: 2rem;
+    margin-top: 0rem;
+}
+
+#recruitment-header {
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}

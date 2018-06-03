@@ -16,22 +16,9 @@
 
 <body>
 
-  <div class="flex-center">
-
-    <div id="info" class="flex-2 flex-order-2">
-      <div>
-        <p>Friday/Saturday</p>
-        <p>8:30pm-12:30am EST</p>
-        <p>Mal'Ganis - Horde</p>
-      </div>
-    </div>
-
-    <div id="header" class="flex-column flex-1 flex-order-1">
-      <span id="header-title">Potent</span>
-      <img id="header-image" src="images/header.png">
-    </div>
-
-    <div class="flex-2"></div>
+  <div id="header" class="flex-column">
+    <span id="header-title">Potent</span>
+    <img id="header-image" src="images/header.png">
   </div>
   
   <div class="flex-center">
@@ -49,9 +36,15 @@
     </div>
   </div>
 
-  <main class="flex-jc-center">
+  <main id="main" class="flex-center">
 
-    <div id="left" class="flex-1"></div>
+    <div id="left" class="flex-column flex-1">
+      <div id="info" class="flex-column">
+        <p>Friday/Saturday</p>
+        <p>8:30pm-12:30am EST</p>
+        <p>Mal'Ganis - Horde</p>
+      </div>
+    </div>
 
     <section id="blog" class="flex-column flex-2 flex-order-2">
         <h1>Mythic Argus</h1>
@@ -59,7 +52,7 @@
         <a class="image" target="_blank" href="/images/kill-pictures/argus.jpg"><img src="/images/kill-pictures/argus.jpg"></a>
     </section>
 
-    <section id="right" class="flex-order-1">
+    <section id="right" class="flex-column-start flex-1 flex-order-1">
       
       <section id="recruitment">
         <h3 id="recruitment-header">Recruitment</h3>

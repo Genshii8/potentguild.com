@@ -27,22 +27,24 @@
     color: #FF8000;
 }
 
-#info {
-    display: flex;
-    justify-content: flex-end;
+#main {
+    margin-bottom: 2rem;
+    align-items: flex-start;
 }
 
-#info > div {
+#left {
+    justify-content: flex-start;
+}
+
+#info {
+    margin-top: 8rem;
+    border-top: solid 1px #e6e6e6;
     border-bottom: solid 1px #e6e6e6;
 }
 
 #info p {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
-}
-
-main {
-    margin-bottom: 2rem;
 }
 
 #blog h1 {
@@ -71,9 +73,7 @@ main {
 }
 
 #right {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 #recruitment {
@@ -107,7 +107,7 @@ main {
         flex-direction: column;
     }
 
-    main {
+    #main {
         flex-direction: column;
         align-items: center;
     }

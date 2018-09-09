@@ -72,6 +72,10 @@
     margin-top: 1rem;
 }
 
+#blog p {
+    width: 768px;
+}
+
 #blog img {
     width: 768px;
     border: 1px solid black;
@@ -134,6 +138,10 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    #blog p {
+        width: 95vw;
+    }
 
     #blog img {
         width: 95vw;
